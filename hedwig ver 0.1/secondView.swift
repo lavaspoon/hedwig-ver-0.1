@@ -8,6 +8,8 @@ import UIKit
 
 class secondView : UIViewController{
    
+    @IBOutlet weak var joinIdInput: UITextField!
+    @IBOutlet weak var joinPwdInput: UITextField!
     
     
     @IBAction func backBtn(_ sender: UIButton) {
@@ -17,7 +19,9 @@ class secondView : UIViewController{
         
     }
     
-    
+    //여기에 DB 생성해줘
+    @IBAction func joinClicked(_ sender: UIButton) {
+    }
     
     
     

@@ -163,6 +163,9 @@
                                     <constraint firstAttribute="width" constant="46" id="mgE-9q-JU0"/>
                                 </constraints>
                                 <state key="normal" title="Join"/>
+                                <connections>
+                                    <action selector="joinClicked:" destination="4VR-3q-goa" eventType="touchUpInside" id="RQN-Bu-Fld"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -220,6 +223,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ygS-Xm-1rc"/>
                     </view>
+                    <connections>
+                        <outlet property="joinIdInput" destination="xHM-zP-c7U" id="k1X-Lj-jKw"/>
+                        <outlet property="joinPwdInput" destination="bHb-DF-fiz" id="fjd-pk-bSP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3qf-hR-6NF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
