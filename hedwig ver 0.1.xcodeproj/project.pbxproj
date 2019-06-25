@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E613E0822C1EDB60017E63A /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E613E0722C1EDB60017E63A /* secondView.swift */; };
 		9EEAD67522C130EC00634146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEAD67422C130EC00634146 /* AppDelegate.swift */; };
 		9EEAD67722C130EC00634146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEAD67622C130EC00634146 /* ViewController.swift */; };
 		9EEAD67A22C130EC00634146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEAD67822C130EC00634146 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E613E0722C1EDB60017E63A /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
 		9EEAD67122C130EC00634146 /* hedwig ver 0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hedwig ver 0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EEAD67422C130EC00634146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EEAD67622C130EC00634146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				9EEAD67B22C130EE00634146 /* Assets.xcassets */,
 				9EEAD67D22C130EE00634146 /* LaunchScreen.storyboard */,
 				9EEAD68022C130EE00634146 /* Info.plist */,
+				9E613E0722C1EDB60017E63A /* secondView.swift */,
 			);
 			path = "hedwig ver 0.1";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EEAD67722C130EC00634146 /* ViewController.swift in Sources */,
+				9E613E0822C1EDB60017E63A /* secondView.swift in Sources */,
 				9EEAD67522C130EC00634146 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
