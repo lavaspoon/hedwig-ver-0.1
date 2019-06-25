@@ -8,6 +8,8 @@
 //test1
 //test2
 //join
+//DB
+//DB2
 import UIKit
 
 class ViewController: UIViewController {
