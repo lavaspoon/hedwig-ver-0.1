@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         let docsDir = dirPath[0]
         databasePath = docsDir.appending("/contacts.db")
         
-        if fileMgr.fileExists(atPath: databasePath) { // 파일 존재 여부 판별, 없으면 생성하고 테이블을 구성하는 쿼리 실행
+        if !fileMgr.fileExists(atPath: databasePath) { // 파일 존재 여부 판별, 없으면 생성하고 테이블을 구성하는 쿼리 실행
             let contactDB = FMDatabase(path: databasePath) // FMDatabase 클래스의 인스턴스 생성
             
             if contactDB.open() {
