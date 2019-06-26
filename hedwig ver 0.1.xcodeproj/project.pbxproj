@@ -21,6 +21,7 @@
 		22AC13BD22C209E7000F1FC1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AC13A922C2094C000F1FC1 /* FMResultSet.m */; };
 		22AC13BE22C209E7000F1FC1 /* hedwig ver 0.1-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 22AC139622C20762000F1FC1 /* hedwig ver 0.1-Bridging-Header.h */; };
 		9E613E0822C1EDB60017E63A /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E613E0722C1EDB60017E63A /* secondView.swift */; };
+		9EA421D722C3DF6C007585A4 /* mainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA421D622C3DF6C007585A4 /* mainPageView.swift */; };
 		9EEAD67522C130EC00634146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEAD67422C130EC00634146 /* AppDelegate.swift */; };
 		9EEAD67722C130EC00634146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEAD67622C130EC00634146 /* ViewController.swift */; };
 		9EEAD67A22C130EC00634146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEAD67822C130EC00634146 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		22AC13B122C2094D000F1FC1 /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
 		22AC13B222C2094D000F1FC1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		9E613E0722C1EDB60017E63A /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		9EA421D622C3DF6C007585A4 /* mainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPageView.swift; sourceTree = "<group>"; };
 		9EEAD67122C130EC00634146 /* hedwig ver 0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hedwig ver 0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EEAD67422C130EC00634146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EEAD67622C130EC00634146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				9EEAD67D22C130EE00634146 /* LaunchScreen.storyboard */,
 				9EEAD68022C130EE00634146 /* Info.plist */,
 				9E613E0722C1EDB60017E63A /* secondView.swift */,
+				9EA421D622C3DF6C007585A4 /* mainPageView.swift */,
 			);
 			path = "hedwig ver 0.1";
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				22AC13BA22C209E7000F1FC1 /* FMDatabaseQueue.m in Sources */,
 				22AC13BB22C209E7000F1FC1 /* FMDB.h in Sources */,
 				22AC13BC22C209E7000F1FC1 /* FMResultSet.h in Sources */,
+				9EA421D722C3DF6C007585A4 /* mainPageView.swift in Sources */,
 				22AC13BD22C209E7000F1FC1 /* FMResultSet.m in Sources */,
 				22AC13BE22C209E7000F1FC1 /* hedwig ver 0.1-Bridging-Header.h in Sources */,
 				9EEAD67722C130EC00634146 /* ViewController.swift in Sources */,
