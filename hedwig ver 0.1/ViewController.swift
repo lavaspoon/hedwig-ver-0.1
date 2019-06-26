@@ -5,11 +5,7 @@
 //  Created by lavaspoon on 25/06/2019.
 //  Copyright © 2019 lavaspoon. All rights reserved.
 //
-//test1
-//test2
-//join
-//DB
-//DB2
+
 import UIKit
 
 class ViewController: UIViewController {
