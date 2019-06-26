@@ -5,8 +5,7 @@
 //  Created by lavaspoon on 25/06/2019.
 //  Copyright © 2019 lavaspoon. All rights reserved.
 //
-//test1
-//test2
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -39,10 +38,10 @@ class ViewController: UIViewController {
                 // 실행할 쿼리를 sql1 상수에 미리 저장하고 executeStatements로 구문을 실행해 실제 DB 테이블 생성
                 let sql2 = "INSERT INTO MEMBER VALUES ('root', '1234', '운영자', '26'"
                 if !contactDB.executeStatements(sql1) {
-                    NSLog("SQL 오류")
+                    NSLog("SQL 오류 1")
                 }
                 if !contactDB.executeStatements(sql2) {
-                    NSLog("SQL 오류")
+                    NSLog("SQL 오류 2")
                 }
                 contactDB.close()
             } else {
